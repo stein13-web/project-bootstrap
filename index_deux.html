@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>exo bootstrap</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="assets/img/css/style_deux.css" />
+	</head>
+	<body>
+		<div class="container-lg container-md">
+			<!--navigation bar for my website  -->
+			<nav
+				class="navbar navbar-expand-lg navbar-darken bg-dark"
+			>
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">AGENCY CREATION</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarTogglerDemo02"
+						aria-controls="navbarTogglerDemo02"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="collapse navbar-collapse"
+						id="navbarTogglerDemo02"
+					>
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#"
+									>Accueil</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Réalisations</a>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link disabled"
+									href="#"
+									tabindex="-1"
+									aria-disabled="true"
+									>Contact</a
+								>
+							</li>
+						</ul>
+						<form class="d-flex">
+							<input
+								class="form-control me-2"
+								type="search"
+								placeholder="Search"
+								aria-label="Search"
+							/>
+							<button
+								class="btn btn-outline-success"
+								type="submit"
+							>
+								Recherche
+							</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+			<!--carousel for my website  -->
+			<div
+				id="carouselExampleDark"
+				class="carousel carousel-light slide"
+				data-bs-ride="carousel"
+			>
+				<ol class="carousel-indicators">
+					<li
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="0"
+						class="active"
+					></li>
+					<li
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="1"
+					></li>
+					<li
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="2"
+					></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="10000">
+						<img
+							src="assets/img/logotype.jpg"
+							class="d-block w-75"
+							alt="logo projet un"
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Projet 1</h5>
+							<p class="text-white">
+								Bienvenue dans le monde de CyberPunk 2077
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img
+							src="assets/img/V-Origami-en.jpg"
+							class="d-block w-75"
+							alt="image projet deux"
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Projet 2</h5>
+							<p class="text-white">
+								Intéraction Homme VS Machine
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="assets/img/Punch_it-en.jpg"
+							class="d-block w-75"
+							alt="image projet trois"
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Projet 3</h5>
+							<p class="text-white">
+								Customisation Design Models
+							</p>
+						</div>
+					</div>
+				</div>
+				<a
+					class="carousel-control-prev"
+					href="#carouselExampleDark"
+					role="button"
+					data-bs-slide="prev"
+				>
+					<span
+						class="carousel-control-prev-icon"
+						aria-hidden="true"
+					></span>
+					<span class="visually-hidden">Previous</span>
+				</a>
+				<a
+					class="carousel-control-next"
+					href="#carouselExampleDark"
+					role="button"
+					data-bs-slide="next"
+				>
+					<span
+						class="carousel-control-next-icon"
+						aria-hidden="true"
+					></span>
+					<span class="visually-hidden">Next</span>
+				</a>
+			</div>
+			<!--container card on my website    -->
+			<div class="couleur_black">
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+					  <div class="card border-warning">
+						<img src="assets/img/monde_cyberpunk2077.jpeg" class="card-img-top" alt="...">
+						<!--content card on my website    -->
+						<div class="card-body">
+							<h5 class="card-title text-white border-bottom p-2 border-info">THE WORLD</h5>
+							
+							<p class="card-text text-white">Découvré le Monde onirique de CYBERPUNK 2077 avec
+											  vos camarades.</br> Accomplissé des Missions plus
+											  palpitantes les unes que les autres</br> Imaginé Vos
+											  propres Styles les plus déjantés
+							</p>
+							<p class="card-text">
+								<small class="text-info">en savoir plus</small>
+							</p>
+							<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+									<button class="btn btn-warning me-md-2" type="button">Entrer</button>
+							</div>
+						</div>
+					  </div>
+					</div>
+					<div class="col">
+					  <div class="card border-warning">
+						<img src="assets/img/interact.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title text-white border-bottom p-2 border-info">INTERACTION</h5>
+							<p class="card-text text-white">Venez réagir avec vos semblables Humains ou ses accolytes Machines. Participer à toutes Formes de jeux, que ce soit d'argent ou régler ses comptes.</br>
+											  Essayer l'amicalité entre les différentes factions dans cette Corporations.</p>
+							<p class="card-text">
+								<small class="text-info">en savoir plus</small>
+							</p>
+							<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+									<button class="btn btn-warning me-md-2" type="button">Entrer</button>
+								</div>
+						</div>
+					  </div>
+					</div>
+					<div class="col">
+						<div class="card border-warning">
+							<img src="assets/img/customs.png" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title text-white border-bottom p-2 border-info">CUSTOMISATIONS</h5>
+								<p class="card-text text-white">Venez personnalisé toutes Vos Armes et Augmentations les plus folles en Bijoux de Design.
+												Un Savoir faire Unique et une habilitée hors pairs.</br>
+												Votre Quotidien au goût du Jour.</br>
+												Avec devis c'est Meilleur
+								</p>
+								<p class="card-text">
+									<small class="text-info">en savoir plus</small>
+								</p>
+								<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+									<button class="btn btn-warning me-md-2" type="button">Entrer</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--section pour du contenu avec onglet de page  -->
+			<div class="bg-dark p-10">
+				<div class="accordion" id="accordionExample">
+					<div class="accordion-item bg-dark text-white">
+						<h2 class="accordion-header bg-dark text-info" id="headingOne">
+							<button class="accordion-button collapsed text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Achat des Produits
+							</button>
+						</h2>
+						<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							<strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item bg-dark text-light">
+						<h2 class="accordion-header bg-dark text-info" id="headingTwo">
+							<button class="accordion-button collapsed text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Provenance des Produits
+							</button>
+						</h2>
+						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							<strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item bg-dark text-light">
+						<h2 class="accordion-header bg-dark text-info" id="headingThree">
+							<button class="accordion-button collapsed text-warning bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							Descriptions Design
+							</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--first section pour mn contenu de page  -->
+			<section class="col-xl-12 col-xd-10"></section>
+			<!--deuxieme section pour mn contenu de page  
+			<section class="col-xd-10" id="couleur">
+				<div class="row justify-content-evenly">
+					<div class="col-4 col-2"></div>
+					<div class="col-4 col-2"></div>
+				</div>
+			</section>-->
+
+			<!--troisieme section pour mn contenu de page  
+			<section class="col-xl-12 col-xd-10" id="colo">
+				<div class="row justify-content-around">
+					<div class="col gy-10 col-md colo-deux">block</div>
+					<div class="col gy-10 col-md colo-deux">block</div>
+					<div class="col gy-10 col-md colo-deux">block</div>
+					<div class="col gy-10 col-md colo-deux">block</div>
+					<div class="col gy-10 col-md colo-deux">block</div>
+					<div class="col gy-10 col-md colo-deux">block</div>
+				</div>
+			</section>-->
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+			crossorigin="anonymous"
+			defer
+		></script>
+	</body>
+</html>

@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.col-xl-12 {
+	background: black;
+	padding: 20px;
+	height: 400px;
+}
+#couleur {
+	background: rgb(235, 170, 49);
+	height: 400px;
+}
+.col-4 {
+	margin: 20px;
+	height: 350px;
+	background: red;
+}
+.colo-deux {
+	background: rgb(168, 142, 142);
+}
+.col.gy-10.col-md {
+	border: 1px solid black;
+	padding: 20px;
+	margin: 10px;
+	height: 130px;
+}
+p {
+	color: rgb(31, 70, 70);
+}
+#colo {
+	background: rgb(100, 100, 161);
+}
+
+/*****************exo2******************/
+
+.col-2 {
+	margin: 15px;
+	height: 250px;
+	background: red;
+}
+/***********nav bar****************/
+.container-fluid {
+	background: black;
+}
+.navbar-brand {
+	background: black;
+}
+/*************classe de mon slideshow********/
+.carousel-item.active {
+	display: flex;
+	justify-content: center;
+	background: black;
+}
+.carousel.carousel-light.slide {
+	background: black;
+}
+/***********classe des cards*****************/
+.card-body {
+	background: black;
+}
+.couleur_black {
+	background: black;
+	padding: 15px;
+}
+.row.row-cols-1.row-cols-md-3.g-4 {
+	margin-top: 25px;
+}
+.card-title.text-white {
+	display: flex;
+	justify-content: center;
+}
+/* style pour le menu collapse*/

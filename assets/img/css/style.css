@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+#haut {
+	background: #53e2dbe8;
+	padding: 40px;
+}
+
+#haut article {
+	width: 50%;
+	background: black;
+	padding: 20px;
+	/*margin left auto */
+	margin-left: auto;
+}
+
+h1 {
+	font-size: 30px;
+	color: rgb(26, 88, 143);
+	line-height: 35px;
+	padding-bottom: 20px;
+}
+p {
+	font-size: 14px;
+	line-height: 19px;
+	color: rgb(153, 66, 66);
+	padding: 20px 0 40px 0;
+}
+.CTA {
+	border: 1px solid green;
+	color: blueviolet;
+	border-radius: 10px 5px;
+}
+.CTA:hover {
+	background: red;
+	color: black;
+	text-shadow: 2px 2px 4px gray;
+}
+
+#bas > div {
+	margin: 10px 0;
+	width: 50%;
+	padding: 20px;
+}
+#bas {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#bas > div:nth-child(even) {
+	background: rgb(20, 180, 20);
+}
+#bas > div:nth-child(odd) {
+	background: blue;
+}
+/* ici on est pour écran ordi*/
+@media (max-width: 1200px) {
+	.container {
+		width: 740px;
+	}
+	#haut article {
+		background: rgb(108, 148, 209);
+		margin: 0;
+		width: 100%;
+	}
+	h1 {
+		color: bisque;
+	}
+	#bas > div:nth-child(even) {
+		background: rgb(20, 180, 20);
+		text-align: center;
+		color: antiquewhite;
+	}
+	#bas > div:nth-child(odd) {
+		background: blue;
+		text-align: center;
+		color: antiquewhite;
+	}
+}
+/* ici on est pour écran ordi portable*/
+@media (max-width: 900px) {
+	.container {
+		width: 740px;
+	}
+	#haut article {
+		background: rgb(206, 79, 132);
+		margin: 0;
+		width: 100%;
+	}
+}
+/* ici on est pour écran de Tablette*/
+@media (max-width: 750px) {
+	.container {
+		width: 100%;
+	}
+	#haut article {
+		background: rgb(79, 233, 79);
+		margin: 0;
+		width: 100%;
+	}
+}
+/* ici on est pour écran tablette liseuse*/
+@media (max-width: 400px) {
+	.container {
+		width: 100%;
+	}
+	#haut article {
+		background: rgb(201, 41, 67);
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+	#bas {
+		width: 100%;
+		flex-direction: column;
+	}
+	#bas > div:nth-child(even) {
+		background: rgb(20, 180, 20);
+		width: 100%;
+		text-align: center;
+	}
+	#bas > div:nth-child(odd) {
+		background: blue;
+		width: 100%;
+		text-align: center;
+	}
+}
